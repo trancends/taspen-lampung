@@ -11,7 +11,7 @@ package main
 import "fmt"
 
 func main() {
-	err := printPattern(10)
+	err := printPattern(5)
 	if err != nil {
 		fmt.Println(err)
 	}
